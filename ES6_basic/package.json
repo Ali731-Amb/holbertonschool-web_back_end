@@ -1,7 +1,6 @@
 {
   "name": "es6_basic",
   "version": "1.0.0",
-  "type": "module",
   "main": "0-constants.js",
   "scripts": {
     "dev": "npx babel-node",
