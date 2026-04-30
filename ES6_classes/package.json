@@ -1,0 +1,24 @@
+{
+  "name": "es6_basic",
+  "version": "1.0.0",
+  "main": "0-constants.js",
+  "scripts": {
+    "dev": "npx babel-node",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/node": "^7.29.0",
+    "@babel/preset-env": "^7.29.2",
+    "babel-jest": "^30.3.0",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-jest": "^27.9.0",
+    "jest": "^30.3.0"
+  }
+}
