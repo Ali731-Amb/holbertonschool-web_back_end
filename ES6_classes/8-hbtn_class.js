@@ -7,7 +7,7 @@ class HolbertonClass{
 	}
 	get [Symbol.toPrimitive]() {
     return (hint) => {
-        if (hint === 'number') return this._sizesize
+        if (hint === 'number') return this._size
         if (hint === 'string') return this._location
     }
 }
