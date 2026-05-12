@@ -1,0 +1,20 @@
+# Dépendances
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Variables d'environnement
+.env
+
+# Cache ESLint / Babel
+.eslintcache
+.cache/
+
+# Build
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
