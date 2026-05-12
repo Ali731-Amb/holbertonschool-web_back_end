@@ -18,7 +18,7 @@ newTab.forEach((line) => {
     }
 obj[field].push(firstname);});
 Object.keys(obj).forEach((field) => {
-  console.log(`Number of students in ${field}: ${obj[field].length}. List: ${obj[field].join(',')}`)
+  console.log(`Number of students in ${field}: ${obj[field].length}. List: ${obj[field].join(', ')}`)
 });
 } catch (err) {
 throw new Error('Cannot load the database');
