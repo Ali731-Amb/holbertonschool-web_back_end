@@ -1,9 +1,9 @@
-console.log('Welcome to Holberton School, what is your name?');
+process.stdout.write('Welcome to Holberton School, what is your name?\n');
 
-process.stdin.on('data', (input) => {
-  console.log(`Your name is: ${input.toString().trim()}`);
+process.stdin.on('data', (data) => {
+  console.log(`Your name is: ${data.toString()}`);
 });
 
-process.stdin.on('close', () => {
-  console.log('This important software is now closing');
+process.stdin.on('end', () => {
+  process.stdout.write('This important software is now closing\n');
 });
